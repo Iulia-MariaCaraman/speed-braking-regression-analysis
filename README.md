@@ -1,19 +1,19 @@
-# Econometric Linear Regression: Speed vs Stopping Distance
+# Econometric Modeling: Vehicle Speed vs Total Stopping Distance
 
-Statistical data analysis project developed for Statistics and Econometrics at ASE Bucharest.
+Statistical data analysis coursework prepared for Statistics and Econometrics at ASE Bucharest.
 
 ## Overview
-This project investigates the relationship between vehicle speed and total stopping distance using empirical traffic monitoring data. 
+This project models the quantitative relationship between vehicle driving speed and total stopping distance using real-world braking observations. 
 
-The analysis implements simple linear regression, evaluates model significance, and computes forecast stopping intervals using Microsoft Excel and Data Analysis ToolPak.
+The analysis builds a simple linear regression model, evaluates coefficient significance through hypothesis testing, and provides forecast intervals using Microsoft Excel and Data Analysis ToolPak.
 
-## Analysis Steps and Methodology
-* Factor Analysis: Categorizing human reaction time drivers and mechanical braking variables that influence stopping distance.
-* Parameter Estimation: Estimating intercept and slope parameters through least squares, determinant methods, and Excel regression functions.
-* Correlation and Goodness of Fit: Determining the correlation ratio and coefficient of determination with an R-squared of 0.9638.
-* Model Validation: Running Fisher-Snedecor ANOVA tests to confirm overall model validity at a 5 percent significance level.
-* Parameter Hypothesis Testing: Student t-test evaluations confirming statistical significance of regression coefficients.
-* Predictive Modeling: Forecasting total stopping distance for highway driving speeds up to 180 km/h with 95 percent confidence intervals.
+## Analysis Workflow
+* Influencing Factors: Outlining human reaction time variables alongside mechanical braking components that alter total stopping distances.
+* Parameter Estimation: Computing regression intercept and slope parameters using determinant algebra, least squares, and built-in spreadsheet functions.
+* Correlation Strength: Calculating correlation ratios and the coefficient of determination to measure goodness of fit across sample observations.
+* Model Validation: Conducting Fisher ANOVA tests at a 5 percent significance level to verify the overall linear regression fit.
+* Parameter Significance: Performing Student t-test evaluations to confirm the statistical validity of the estimated coefficients.
+* Predictive Scenarios: Projecting total stopping distances for elevated speeds up to 180 km/h with 95 percent confidence intervals.
 
 ## Repository Contents
-* Aplicatia 10. Regresia Viteza si distanta de franare.xlsx: Excel workbook containing raw datasets, calculations, ANOVA output tables, and scenario forecasts across dedicated sheets.
+* Modelarea retelei dintre viteza autovehicul si distanta totala de oprire.xlsx: Complete analytical workbook containing data tables, estimation steps, statistical testing sheets, and projection scenarios.
